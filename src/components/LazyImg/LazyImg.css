@@ -1,0 +1,7 @@
+.lazy-img-wrapper {
+    overflow: hidden;
+}
+
+.lazy-img-placeholder {
+    filter: blur(10px);
+}
