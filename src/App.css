@@ -1,0 +1,49 @@
+.content {
+    max-width: 800px;
+    padding: 2rem;
+    margin: auto;
+    font-size: 2rem;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 1rem 2rem;
+}
+
+
+section {
+    margin-bottom: 3rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+.sub-header {
+    margin-top: -3rem;
+    margin-bottom: 0;
+}
+
+h2 {}
+
+p {
+    line-height: 1.778;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: #e83d0c;
+    text-decoration: none;
+}
+
+small {
+    font-size: .7em;
+}
+
