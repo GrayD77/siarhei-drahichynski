@@ -1,0 +1,20 @@
+.linkedIn {
+    display: inline-block;
+    border-radius: 4px;
+    border: 2px solid #FFFFFF;
+    font-size: 0;
+}
+
+.linkedIn svg {
+    margin: -2px;
+}
+
+.linkedIn .background {
+    transition: fill .2s;
+    fill: transparent;
+}
+
+
+.linkedIn:hover .background {
+    fill: #0a66c2; /* in brand color*/
+}

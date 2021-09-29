@@ -10,8 +10,26 @@ header {
     background-color: #000000;
     color: #FFFFFF;
     padding: 1rem 2rem;
+
 }
 
+.header-content {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin: -1.5rem 0;
+}
+
+.links > *:not(:last-child) {
+    margin-right: 8px;
+}
 
 section {
     margin-bottom: 3rem;

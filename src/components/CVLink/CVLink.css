@@ -1,0 +1,51 @@
+.cv-link {
+    position: relative;
+    display: inline-block;
+    width: 3.4rem;
+    height: 3.4rem;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: .4rem;
+    color: #FFFFFF;
+    padding: 0 0 1.2rem 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cv-link:hover:before {
+    opacity: 1;
+}
+
+.cv-link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: inherit;
+    background-color: #e83d0c;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.cv-link:after {
+    content: '🠻';
+    position: absolute;
+    display: block;
+    z-index: 1;
+    font-size: 2.3rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: .5rem;
+}
+.cv-link span {
+    position: relative;
+    z-index: 1;
+    top: -.7rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
