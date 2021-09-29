@@ -6,14 +6,17 @@
     box-sizing: border-box;
 }
 
-header {
+header, footer {
     background-color: #000000;
     color: #FFFFFF;
-    padding: 1rem 2rem;
-
+    padding: 0 2rem;
+    display: flex;
+    height: 5rem;
 }
 
-.header-content {
+.header-content,
+.footer-content {
+    flex-grow: 1;
     max-width: 1440px;
     display: flex;
     align-items: center;
@@ -21,10 +24,13 @@ header {
     margin: auto;
 }
 
+.footer-content {
+    justify-content: flex-end;
+}
+
 .links {
     display: flex;
     align-items: center;
-    margin: -1.5rem 0;
 }
 
 .links > *:not(:last-child) {
