@@ -34,7 +34,7 @@ header, footer {
 }
 
 .links > *:not(:last-child) {
-    margin-right: 8px;
+    margin-right: .8rem;
 }
 
 section {

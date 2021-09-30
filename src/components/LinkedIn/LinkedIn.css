@@ -1,12 +1,14 @@
 .linkedIn {
     display: inline-block;
-    border-radius: 4px;
+    border-radius: .4rem;
     border: 2px solid #FFFFFF;
     font-size: 0;
 }
 
 .linkedIn svg {
-    margin: -2px;
+    margin: -.2rem;
+    width: 3.4rem;
+    height: 3.4rem
 }
 
 .linkedIn .background {

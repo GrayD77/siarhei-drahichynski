@@ -66,10 +66,9 @@ const Content = () => {
 
                 <LazyImg
                     src={'/img/bike.webp'}
-                    placeholder={'/img/bike-placeholder.webp'}
-                    alt={'Downhill on my bike'}
+                    alt={'Sending on my bike'}
                     width={760}
-                    height={570}
+                    height={480}
                 />
             </section>
         </div>
